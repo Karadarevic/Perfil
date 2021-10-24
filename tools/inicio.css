@@ -1,0 +1,111 @@
+.caixa {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(107, 106, 106);
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.perfil{
+    width: auto ;
+    height: 200px;
+    border-radius: 50px 50px 50px 50px;
+    display: block;
+    padding: 1rem;
+}
+
+.texto {
+    width: auto;
+	margin: 0 auto;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    padding: 0.8rem;
+    color: white;
+}
+
+.ayrton {
+    border-radius: 50px 50px 50px 50px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    width: auto;
+    padding: 2rem;
+}
+
+.goku {
+    position: relative;
+}
+
+.goku .pri{
+    margin-top: 6rem;
+    margin-left: 4rem;
+    height: 120px;
+}
+
+.goku:hover .pri {
+    visibility: hidden;
+}
+.goku .seg {
+    visibility: hidden;
+    opacity: 0;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.goku:hover .seg {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+
+
+
+
+main {
+    background-image: url('https://i.pinimg.com/originals/96/3d/e0/963de0b53d66f66591c88e8fce037d13.gif');
+    background-size: cover;
+    height: 100vh;
+    padding:0;
+    margin:0;
+    margin-left: 200px;
+}
+
+.telinha {
+    position: relative;
+    top: 12rem;
+    height: 100vh;
+    display: block;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.video {
+    display: block;
+    margin-bottom: 2rem;
+}
+
+.linguagens {
+    width: 15rem;
+    margin-top: 2rem;
+    background-color: rgb(107, 106, 106);
+    padding: 1rem;
+    display: block;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.redes {
+    display: block;
+    margin-top: 2rem
+}
+
+.video .telinha .linguagens .redes {
+    position: relative;
+    top: 5rem;
+}
